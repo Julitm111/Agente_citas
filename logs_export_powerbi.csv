@@ -1,0 +1,88 @@
+session_id,turno,timestamp,usuario_texto,bot_texto,intencion,paso,nombre,identificacion,especialidad,fecha,hora,medio
+,,2025-12-03T00:50:40.598781,Hola,"Soy un asistente para agendar citas médicas, ¿deseas programar una?",small_talk,INICIO,,,,,,
+,,2025-12-03T00:51:44.256189,Quiero agendar una cita médica,"Soy un asistente para agendar citas médicas, ¿deseas programar una?",small_talk,INICIO,,,,,,
+,,2025-12-03T01:05:02.866998+00:00,Hola,"Soy un asistente para agendar citas médicas, ¿deseas programar una?",small_talk,INICIO,,,,,,
+,,2025-12-03T01:05:06.994704+00:00,si,No estoy seguro de cómo ayudarte con eso. Puedo agendar citas médicas si lo necesitas.,desconocida,INICIO,,,,,,
+,,2025-12-03T01:09:53.625541+00:00,Hola,Por ahora solo puedo ayudarte a agendar citas médicas.,small_talk,COMPLETADO,,,,,,
+,,2025-12-03T01:10:07.811660+00:00,"si, agendar cita","Para comenzar, ¿cuál es tu nombre completo?",agendar_cita,PEDIR_NOMBRE,,,,,,
+,,2025-12-03T01:11:15.989782+00:00,Juliana Torres Morales,¿Podrías indicarme tu número de identificación?,agendar_cita,PEDIR_IDENTIFICACION,Juliana Torres Morales,,,,,
+,,2025-12-03T01:11:22.914838+00:00,1020105343,"¿Con qué especialidad necesitas tu cita? (por ejemplo: pediatría, cardiología, dermatología)",agendar_cita,PEDIR_ESPECIALIDAD,Juliana Torres Morales,1020105343,,,,
+,,2025-12-03T01:11:31.811397+00:00,Dermatologia,¿Para qué fecha deseas agendar la cita?,agendar_cita,PEDIR_FECHA,Juliana Torres Morales,1020105343,Dermatologia,,,
+,,2025-12-03T01:11:41.838865+00:00,2 de noviembre del 2004,¿Tienes alguna hora preferida para la cita?,agendar_cita,PEDIR_HORA,Juliana Torres Morales,1020105343,Dermatologia,2 de noviembre del 2004,,
+,,2025-12-03T01:11:48.298800+00:00,8:00am,¿Tienes alguna hora preferida para la cita?,agendar_cita,PEDIR_HORA,Juliana Torres Morales,1020105343,Dermatologia,2 de noviembre del 2004,,
+,,2025-12-03T01:11:57.307892+00:00,8:00,¿Prefieres que la cita sea presencial o virtual?,agendar_cita,PEDIR_MEDIO,Juliana Torres Morales,1020105343,Dermatologia,2 de noviembre del 2004,8:00,
+,,2025-12-03T01:12:03.316819+00:00,Presencial,¿Prefieres que la cita sea presencial o virtual?,agendar_cita,PEDIR_MEDIO,Juliana Torres Morales,1020105343,Dermatologia,2 de noviembre del 2004,8:00,
+,,2025-12-03T01:12:12.258006+00:00,Presencial,¿Prefieres que la cita sea presencial o virtual?,agendar_cita,PEDIR_MEDIO,Juliana Torres Morales,1020105343,Dermatologia,2 de noviembre del 2004,8:00,
+,,2025-12-03T01:13:02.429285+00:00,cualquiera,¿Prefieres que la cita sea presencial o virtual?,agendar_cita,PEDIR_MEDIO,Juliana Torres Morales,1020105343,Dermatologia,2 de noviembre del 2004,8:00,
+,,2025-12-03T01:13:31.762022+00:00,presencial,"Perfecto, con estos datos puedo agendar tu cita. Por favor confirma:
+Nombre: Juliana Torres Morales
+Identificación: 1020105343
+Especialidad: Dermatologia
+Fecha: 2 de noviembre del 2004
+Hora: 8:00
+Medio: presencial
+¿Confirmas que son correctos? (sí/no)",agendar_cita,CONFIRMAR,Juliana Torres Morales,1020105343,Dermatologia,2 de noviembre del 2004,8:00,presencial
+,,2025-12-03T01:13:41.109651+00:00,si,"Perfecto, con estos datos puedo agendar tu cita. Por favor confirma:
+Nombre: Juliana Torres Morales
+Identificación: 1020105343
+Especialidad: Dermatologia
+Fecha: 2 de noviembre del 2004
+Hora: 8:00
+Medio: presencial
+¿Confirmas que son correctos? (sí/no)",agendar_cita,CONFIRMAR,Juliana Torres Morales,1020105343,Dermatologia,2 de noviembre del 2004,8:00,presencial
+,,2025-12-03T01:13:46.568351+00:00,sí,Tu cita ha sido registrada ✅,,INICIO,,,,,,
+,,2025-12-03T01:20:07.225904+00:00,Deseo agendar una cita,"Para comenzar, ¿cuál es tu nombre completo?",agendar_cita,PEDIR_NOMBRE,,,,,,
+,,2025-12-03T01:20:24.704889+00:00,Sebastian Arce,¿Podrías indicarme tu número de identificación?,agendar_cita,PEDIR_IDENTIFICACION,Sebastian Arce,,,,,
+,,2025-12-03T01:20:33.548817+00:00,1027292343,"¿Con qué especialidad necesitas tu cita? (por ejemplo: pediatría, cardiología, dermatología)",agendar_cita,PEDIR_ESPECIALIDAD,Sebastian Arce,1027292343,,,,
+,,2025-12-03T01:20:41.727522+00:00,Cardiologia,¿Para qué fecha deseas agendar la cita?,agendar_cita,PEDIR_FECHA,Sebastian Arce,1027292343,Cardiologia,,,
+,,2025-12-03T01:20:56.328765+00:00,5 de noviembre,¿Tienes alguna hora preferida para la cita?,agendar_cita,PEDIR_HORA,Sebastian Arce,1027292343,Cardiologia,5 de noviembre,,
+,,2025-12-03T01:20:59.710757+00:00,8 am,¿Prefieres que la cita sea presencial o virtual?,agendar_cita,PEDIR_MEDIO,Sebastian Arce,1027292343,Cardiologia,5 de noviembre,8 am,
+,,2025-12-03T01:21:04.466246+00:00,virtual,"Perfecto, con estos datos puedo agendar tu cita. Por favor confirma:
+Nombre: Sebastian Arce
+Identificación: 1027292343
+Especialidad: Cardiologia
+Fecha: 5 de noviembre
+Hora: 8 am
+Medio: virtual
+¿Confirmas que son correctos? (sí/no)",agendar_cita,CONFIRMAR,Sebastian Arce,1027292343,Cardiologia,5 de noviembre,8 am,virtual
+,,2025-12-03T01:21:09.121661+00:00,sí,Tu cita ha sido registrada ✅,,INICIO,,,,,,
+,,2025-12-03T01:21:12.654265+00:00,gracias,No estoy seguro de cómo ayudarte con eso. Puedo agendar citas médicas si lo necesitas.,desconocida,INICIO,,,,,,
+c9f86c7c-aaaa-4abf-a4e2-098398c723a0,1.0,2025-12-03T03:12:38.968725+00:00,Hola,Por ahora solo puedo ayudarte a agendar citas medicas.,small_talk,COMPLETADO,,,,,,
+b1672de5-b6af-483e-bee7-fac62b535f12,1.0,2025-12-03T03:16:08.243503+00:00,Hola,Por ahora solo puedo ayudarte a agendar citas medicas.,small_talk,COMPLETADO,,,,,,
+e94e839a-9331-4047-8317-fd0bd26ac102,1.0,2025-12-03T03:18:17.528659+00:00,Hola,Por ahora solo puedo ayudarte a agendar citas medicas.,small_talk,COMPLETADO,,,,,,
+c5a3c6e1-5adf-4052-819e-656c67692d57,1.0,2025-12-03T03:18:34.503863+00:00,Me gustaria agendar una cita,"Para comenzar, cual es tu nombre completo?",agendar_cita,PEDIR_NOMBRE,,,,,,
+c5a3c6e1-5adf-4052-819e-656c67692d57,2.0,2025-12-03T03:18:49.586966+00:00,Juliana Torres Morales,Podrias indicarme tu numero de identificacion?,agendar_cita,PEDIR_IDENTIFICACION,Juliana Torres Morales,,,,,
+c5a3c6e1-5adf-4052-819e-656c67692d57,3.0,2025-12-03T03:18:59.792560+00:00,1020105343,"Con que especialidad necesitas tu cita? (por ejemplo: pediatria, cardiologia, dermatologia)",agendar_cita,PEDIR_ESPECIALIDAD,Juliana Torres Morales,1020105343,,,,
+c5a3c6e1-5adf-4052-819e-656c67692d57,4.0,2025-12-03T03:19:11.596706+00:00,Pediatría,Para que fecha deseas agendar la cita?,agendar_cita,PEDIR_FECHA,Juliana Torres Morales,1020105343,Pediatría,,,
+c5a3c6e1-5adf-4052-819e-656c67692d57,5.0,2025-12-03T03:19:23.762712+00:00,6 de noviembre 2004,Tienes alguna hora preferida para la cita?,agendar_cita,PEDIR_HORA,Juliana Torres Morales,1020105343,Pediatría,6 de noviembre 2004,,
+c5a3c6e1-5adf-4052-819e-656c67692d57,6.0,2025-12-03T03:19:38.169348+00:00,8:00 am,Prefieres que la cita sea presencial o virtual?,agendar_cita,PEDIR_MEDIO,Juliana Torres Morales,1020105343,Pediatría,6 de noviembre 2004,8:00 am,
+c5a3c6e1-5adf-4052-819e-656c67692d57,7.0,2025-12-03T03:19:48.019355+00:00,Presencial,"Perfecto, con estos datos puedo agendar tu cita. Por favor confirma:
+Nombre: Juliana Torres Morales
+Identificacion: 1020105343
+Especialidad: Pediatría
+Fecha: 6 de noviembre 2004
+Hora: 8:00 am
+Medio: presencial
+Confirmas que son correctos? (si/no)",agendar_cita,CONFIRMAR,Juliana Torres Morales,1020105343,Pediatría,6 de noviembre 2004,8:00 am,presencial
+c5a3c6e1-5adf-4052-819e-656c67692d57,8.0,2025-12-03T03:19:58.642427+00:00,Si,Tu cita ha sido registrada.,agendar_cita,COMPLETADO,Juliana Torres Morales,1020105343,Pediatría,6 de noviembre 2004,8:00 am,presencial
+fbe742a0-05f1-4048-bb39-4742ccbd0efe,1.0,2025-12-03T03:20:30.910653+00:00,Me gustaria agendar una cita,"Para comenzar, cual es tu nombre completo?",agendar_cita,PEDIR_NOMBRE,,,,,,
+fbe742a0-05f1-4048-bb39-4742ccbd0efe,2.0,2025-12-03T03:20:42.423625+00:00,Juliana Torres Morales,Podrias indicarme tu numero de identificacion?,agendar_cita,PEDIR_IDENTIFICACION,Juliana Torres Morales,,,,,
+fbe742a0-05f1-4048-bb39-4742ccbd0efe,3.0,2025-12-03T03:20:48.322795+00:00,1020105343,Podrias indicarme tu numero de identificacion?,agendar_cita,PEDIR_IDENTIFICACION,Juliana Torres Morales,,,,,
+fbe742a0-05f1-4048-bb39-4742ccbd0efe,4.0,2025-12-03T03:20:51.404348+00:00,1020105343,Podrias indicarme tu numero de identificacion?,agendar_cita,PEDIR_IDENTIFICACION,Juliana Torres Morales,,,,,
+fbe742a0-05f1-4048-bb39-4742ccbd0efe,5.0,2025-12-03T03:20:58.960218+00:00,1020105343,"Con que especialidad necesitas tu cita? (por ejemplo: pediatria, cardiologia, dermatologia)",agendar_cita,PEDIR_ESPECIALIDAD,Juliana Torres Morales,1020105343,,,,
+fbe742a0-05f1-4048-bb39-4742ccbd0efe,6.0,2025-12-03T03:21:11.182067+00:00,Pediatría,"Con que especialidad necesitas tu cita? (por ejemplo: pediatria, cardiologia, dermatologia)",agendar_cita,PEDIR_ESPECIALIDAD,Juliana Torres Morales,1020105343,,,,
+b6ea93dc-7bff-44ca-920b-24d58f5944c3,1.0,2025-12-03T03:21:49.672277+00:00,Me gustaría agendar una cita,"Para comenzar, cual es tu nombre completo?",agendar_cita,PEDIR_NOMBRE,,,,,,
+b6ea93dc-7bff-44ca-920b-24d58f5944c3,2.0,2025-12-03T03:22:01.167673+00:00,Juliana Torres Morales,Podrias indicarme tu numero de identificacion?,agendar_cita,PEDIR_IDENTIFICACION,Juliana Torres Morales,,,,,
+b6ea93dc-7bff-44ca-920b-24d58f5944c3,3.0,2025-12-03T03:22:10.492357+00:00,1020105343,"Con que especialidad necesitas tu cita? (por ejemplo: pediatria, cardiologia, dermatologia)",agendar_cita,PEDIR_ESPECIALIDAD,Juliana Torres Morales,1020105343,,,,
+b6ea93dc-7bff-44ca-920b-24d58f5944c3,4.0,2025-12-03T03:22:21.517972+00:00,Cardiologia,Para que fecha deseas agendar la cita?,agendar_cita,PEDIR_FECHA,Juliana Torres Morales,1020105343,Cardiologia,,,
+b6ea93dc-7bff-44ca-920b-24d58f5944c3,5.0,2025-12-03T03:22:30.947154+00:00,5 de noviembre,Para que fecha deseas agendar la cita?,agendar_cita,PEDIR_FECHA,Juliana Torres Morales,1020105343,Cardiologia,,,
+b6ea93dc-7bff-44ca-920b-24d58f5944c3,6.0,2025-12-03T03:22:39.216084+00:00,5 de noviembre 2025,Tienes alguna hora preferida para la cita?,agendar_cita,PEDIR_HORA,Juliana Torres Morales,1020105343,Cardiologia,5 de noviembre 2025,,
+b6ea93dc-7bff-44ca-920b-24d58f5944c3,7.0,2025-12-03T03:22:46.409115+00:00,8:00am,Prefieres que la cita sea presencial o virtual?,agendar_cita,PEDIR_MEDIO,Juliana Torres Morales,1020105343,Cardiologia,5 de noviembre 2025,8:00am,
+b6ea93dc-7bff-44ca-920b-24d58f5944c3,8.0,2025-12-03T03:22:54.056799+00:00,Presencial,"Perfecto, con estos datos puedo agendar tu cita. Por favor confirma:
+Nombre: Juliana Torres Morales
+Identificacion: 1020105343
+Especialidad: Cardiologia
+Fecha: 5 de noviembre 2025
+Hora: 8:00am
+Medio: presencial
+Confirmas que son correctos? (si/no)",agendar_cita,CONFIRMAR,Juliana Torres Morales,1020105343,Cardiologia,5 de noviembre 2025,8:00am,presencial
