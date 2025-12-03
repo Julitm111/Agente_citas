@@ -1,9 +1,8 @@
 ﻿import json
 from typing import Dict, Optional
 
-from domain import Intent
-from llm_client import LLMClient
-
+from src.models.domain import Intent
+from src.controllers.llm_client import LLMClient
 
 def detectar_intencion_llm(mensaje: str, llm: LLMClient) -> Intent:
     """

@@ -1,8 +1,8 @@
 ﻿from typing import Dict, Optional
 
-from domain import ConversationState, FlowStep, Intent, get_missing_slots
-from llm_client import LLMClient
-from nlu import detectar_intencion_llm, extraer_entidades_llm
+from src.models.domain import ConversationState, FlowStep, Intent, get_missing_slots
+from src.controllers.llm_client import LLMClient
+from src.controllers.nlu import detectar_intencion_llm, extraer_entidades_llm
 
 FALLBACK_MESSAGE = (
     "Estoy teniendo problemas para procesar tu solicitud en este momento. "

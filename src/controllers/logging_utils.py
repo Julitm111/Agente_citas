@@ -2,7 +2,7 @@
 import json
 from typing import Optional
 
-from domain import ConversationState
+from src.models.domain import ConversationState
 
 
 def log_turno(

@@ -1,9 +1,9 @@
 ﻿import os
 
-from dialog_manager import agente_citas
-from domain import ConversationState, FlowStep
-from llm_client import LLMClient, OPENAI_API_URL, OPENAI_MODEL
-from logging_utils import log_turno
+from src.controllers.dialog_manager import agente_citas
+from src.models.domain import ConversationState, FlowStep
+from src.controllers.llm_client import LLMClient, OPENAI_API_URL, OPENAI_MODEL
+from src.controllers.logging_utils import log_turno
 
 
 def main() -> None:
